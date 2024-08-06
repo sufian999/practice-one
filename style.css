@@ -1,0 +1,73 @@
+body{
+  width: 1440px;
+  border: 2pX solid red;
+  margin: 0 auto;
+}
+.top{
+  width: 1090px;
+ margin: 0 auto;
+ display: flex;
+}
+.one, .one-time, .two, .two-time {
+  width: 400pX;
+  height: 400pX;
+  margin-left: 50px;
+}
+.one{
+  width: 400pX;
+  height: 400pX;
+  background-color:green;
+}
+
+.one-time{
+  width: 400pX;
+  height: 400pX;
+  background-color:red;
+  margin: 0 auto;
+  /* transform: scale(0.50) translate(100pX) rotate(45deg); */
+}
+
+.one-time:hover{
+  transform: scale(.50) rotate(40deg);
+  border-radius: 50%;
+}
+
+.two{
+  width: 400pX;
+  height: 400pX;
+  background-color: green;
+}
+.two-time{
+  width: 400pX;
+  height: 400pX;
+  background-color:red;
+  transform: scale(0.5) rotate(50deg);
+  margin-left: 0.1px;
+}
+.img-one{
+  width: 1090px;
+  height: 1100px;
+  margin: 0 auto;
+  background-image: url(image/exercise6.jpg);
+  background-repeat: no-repeat;
+}
+
+.img-one p{
+  width: 1090px;
+  position: fixed;
+  text-align: justify;
+}
+.last-item{
+  width: 1090px;
+  margin: 0 auto;
+}
+.last-item h1{
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.last-item p{
+  text-indent: 30px;
+  text-align: justify;
+  text-transform: uppercase;
+}
